@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EWENBUILDS.xyz — Engineering Portfolio &amp; Open-Source Repository</title>
+    <meta name="description" content="Professional engineering portfolio and open-source CAD, hardware, and software project repository." />
+    
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="EWENBUILDS.xyz — Engineering Portfolio &amp; Open-Source Repository" />
+    <meta property="og:description" content="Professional engineering portfolio and open-source CAD, hardware, and software project repository." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ewenbuilds.xyz" />
+    <meta property="og:image" content="/[INSERT SOCIAL SHARE CARD IMAGE - 1200x630].png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="EWENBUILDS.xyz — Engineering Portfolio &amp; Open-Source Repository" />
+    <meta name="twitter:description" content="Professional engineering portfolio and open-source CAD, hardware, and software project repository." />
+
+    <!-- Google Fonts: Plus Jakarta Sans (Display/Body) & JetBrains Mono (Data/Tech Specs) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Google Model Viewer Web Component CDN (Static Build Compatible - No SSR) -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+    <!-- Cloudflare Web Analytics (Free, Privacy-First, Native to Cloudflare Pages) -->
+    <!-- Replace [INSERT CLOUDFLARE WEB ANALYTICS TOKEN] with the token from Cloudflare Dashboard > Analytics & Logs > Web Analytics -->
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "[INSERT CLOUDFLARE WEB ANALYTICS TOKEN]"}'></script>
+
+    <!-- OPTIONAL SECONDARY TRACKER: Google Analytics 4 (GA4) -->
+    <!-- Cloudflare Web Analytics tracks pageviews without cookies. If you need granular button-click tracking via GA4, uncomment the block below and replace [INSERT GA4 MEASUREMENT ID] -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=[INSERT GA4 MEASUREMENT ID]"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '[INSERT GA4 MEASUREMENT ID]');
+    </script>
+    -->
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased font-sans selection:bg-cyan-500 selection:text-slate-950 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

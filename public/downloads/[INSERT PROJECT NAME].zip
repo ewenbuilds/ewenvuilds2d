@@ -1,0 +1,4 @@
+PLACEHOLDER: Replace this file with your actual compiled project .zip archive.
+Recommended path: public/downloads/[INSERT PROJECT NAME].zip
+Example: public/downloads/high-speed-actuator-v1.zip
+When deployed to Cloudflare Pages, this will be served at /downloads/[INSERT PROJECT NAME].zip.

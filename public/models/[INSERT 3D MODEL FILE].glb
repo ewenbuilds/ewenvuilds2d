@@ -1,0 +1,5 @@
+PLACEHOLDER: Replace this file with your actual 3D model (.glb or .gltf format).
+Recommended path: public/models/[INSERT 3D MODEL FILE].glb
+Example: public/models/robotic-end-effector.glb
+Served statically on Cloudflare Pages at /models/[INSERT 3D MODEL FILE].glb
+The <model-viewer> component in src/components/ModelViewer3D.tsx will load this file directly.

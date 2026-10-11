@@ -1,0 +1,7 @@
+ISO-10303-21;
+HEADER;
+/* PLACEHOLDER: Replace this file with your actual STEP/STL or CAD package */
+/* Recommended path: public/downloads/[INSERT BUILD FILES - CAD STL].step */
+/* Example: public/downloads/gantry-carriage-assembly.step */
+ENDSEC;
+END-10303-21;
